@@ -1,5 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
+  width: 100%;
+  background: #fffcf7 url('./images/fe5724b5a0b2f771df18fb2f7f127ae9.png')
+    no-repeat fixed center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

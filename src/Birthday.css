@@ -1,0 +1,111 @@
+.Birthday {
+  margin: auto;
+  width: 40%;
+  height: 100%;
+  background-color: #ddbea9;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Birthday-privacy {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  margin-top: 3em;
+  background-color: #ffe8d6;
+}
+
+.Birthday-privacy p {
+  margin-right: 1em;
+}
+
+.Birthday-heading {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.Birthday-form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.Birthday-form-group label {
+  font-size: 1.2em;
+  font-weight: 400;
+  font-weight: bolder;
+  outline: none;
+  padding: 1em;
+}
+
+.Birthday-form-group input {
+  border: none;
+  outline: none;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.Birthday-button {
+  border: none;
+  outline: none;
+  padding: 1em;
+  width: 30%;
+  color: white;
+  background-color: black;
+}
+
+.Birthday-footer {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 95%;
+  background-color: #ffe8d6;
+  font-weight: 700;
+}
+
+.Birthday-footer-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Birthday-footer-social a {
+  margin-left: 1em;
+  margin-right: 1em;
+  color: black;
+}
+
+.Birthday-hide img {
+  height: 30%;
+}
+
+/* Responsive css */
+
+@media (max-width: 576px) {
+  .Birthday {
+    width: 100%;
+  }
+
+  .Birthday-privacy {
+    flex-direction: column;
+    padding: 1em;
+    background-color: #ffe8d6;
+  }
+
+  .Birthday-heading {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .Birthday-footer {
+    width: 100%;
+  }
+
+  .Birthday-footer-social {
+    margin-top: 1em;
+  }
+}
