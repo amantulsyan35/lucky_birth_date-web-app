@@ -101,6 +101,10 @@
     margin-right: 1em;
   }
 
+  .Birthday-form-group input {
+    margin: auto;
+  }
+
   .Birthday-footer {
     width: 100%;
   }
