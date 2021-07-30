@@ -103,6 +103,11 @@
 
   .Birthday-form-group input {
     margin: auto;
+    width: 100%;
+  }
+
+  .Birthday-button {
+    margin-top: 1em;
   }
 
   .Birthday-footer {
